@@ -1,0 +1,17 @@
+<html>
+    <h2>
+        final results
+    </h2>
+</html>
+<body>
+    <table border=2>
+        {% for key, value in results.items()   %}
+        <tr>
+
+            {# This is the commet section #}
+            <th>{{key}}</th>
+            <tr>{{ value}}</tr>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
